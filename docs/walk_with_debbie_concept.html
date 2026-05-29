@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-dim": "#ddd9d5",
+              "surface-variant": "#e6e2dd",
+              "background": "#fdf9f4",
+              "on-tertiary-fixed-variant": "#574500",
+              "inverse-surface": "#31302d",
+              "on-primary-container": "#ff828a",
+              "error": "#ba1a1a",
+              "surface-container-low": "#f7f3ee",
+              "on-primary-fixed-variant": "#8e0f28",
+              "on-surface-variant": "#584141",
+              "on-error": "#ffffff",
+              "outline-variant": "#e0bfbf",
+              "on-primary-fixed": "#40000b",
+              "tertiary-container": "#cca730",
+              "primary-container": "#800020",
+              "secondary": "#4e6453",
+              "error-container": "#ffdad6",
+              "surface-container-highest": "#e6e2dd",
+              "surface-tint": "#af2b3e",
+              "on-secondary-fixed": "#0b2013",
+              "surface-container-lowest": "#ffffff",
+              "primary-fixed": "#ffdada",
+              "tertiary": "#735c00",
+              "tertiary-fixed-dim": "#e9c349",
+              "on-surface": "#1c1c19",
+              "on-secondary": "#ffffff",
+              "primary": "#570013",
+              "tertiary-fixed": "#ffe088",
+              "outline": "#8c7071",
+              "on-tertiary-fixed": "#241a00",
+              "surface-container-high": "#ebe8e3",
+              "secondary-container": "#d0e9d4",
+              "on-tertiary": "#ffffff",
+              "on-tertiary-container": "#4f3d00",
+              "inverse-on-surface": "#f4f0eb",
+              "secondary-fixed-dim": "#b4cdb8",
+              "primary-fixed-dim": "#ffb3b5",
+              "inverse-primary": "#ffb3b5",
+              "surface-container": "#f1ede8",
+              "secondary-fixed": "#d0e9d4",
+              "on-secondary-container": "#536a59",
+              "surface": "#fdf9f4",
+              "on-background": "#1c1c19",
+              "surface-bright": "#fdf9f4",
+              "on-error-container": "#93000a",
+              "on-primary": "#ffffff",
+              "on-secondary-fixed-variant": "#364c3c"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Work Sans"],
+              "label": ["Work Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: linear-gradient(145deg, #570013 0%, #800020 100%);
+        }
+        .editorial-shadow {
+            shadow-[0_40px_40px_-10px_rgba(28,28,25,0.05)]
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#fdf9f4]/85 backdrop-blur-md shadow-[0_40px_40px_-10px_rgba(28,28,25,0.05)]">
+<div class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+<span class="text-2xl font-headline italic font-bold text-primary">Walk With Debbie</span>
+<div class="hidden md:flex items-center space-x-10">
+<a class="text-primary border-b-2 border-tertiary-container pb-1 font-label text-sm uppercase tracking-widest transition-all" href="#services">Services</a>
+<a class="text-secondary font-label text-sm uppercase tracking-widest hover:text-primary transition-colors duration-300" href="#about">About</a>
+<a class="text-secondary font-label text-sm uppercase tracking-widest hover:text-primary transition-colors duration-300" href="#scheduling">Scheduling</a>
+<a class="text-secondary font-label text-sm uppercase tracking-widest hover:text-primary transition-colors duration-300" href="#contact">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-label text-sm uppercase tracking-wider font-semibold hover:opacity-90 active:scale-95 transition-all">
+                Call Debbie
+            </button>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section: Intentional Asymmetry -->
+<section class="relative px-8 py-20 lg:py-32 max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-8">
+<div class="space-y-4">
+<span class="font-label text-tertiary font-semibold uppercase tracking-[0.2em] text-xs">A Trusted Companion for Life's Journeys</span>
+<h1 class="font-headline text-5xl lg:text-7xl font-bold text-primary leading-[1.1] tracking-tight">
+                        Elegance in Care, <br/><span class="italic font-normal">Grace in Every Step.</span>
+</h1>
+</div>
+<p class="text-secondary text-lg lg:text-xl max-w-xl leading-relaxed">
+                    Personalized senior assistance and walking companionship designed to bring joy, movement, and peace of mind to your daily routine.
+                </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="hero-gradient text-on-primary px-8 py-4 rounded-lg font-label uppercase tracking-widest text-sm font-bold shadow-lg">
+                        Schedule a Consultation
+                    </button>
+<button class="bg-surface-container-lowest border border-outline-variant/30 text-primary px-8 py-4 rounded-lg font-label uppercase tracking-widest text-sm font-bold">
+                        Our Story
+                    </button>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative z-10">
+<img class="w-full h-full object-cover" data-alt="A warm, professional portrait of a mature woman with a kind smile, wearing a classic beige knit sweater in a sunlit outdoor garden setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpDdVRCbt_LcEZ2QrlPiwkH7U4mw-i9vhQUlQdkKOWs9H5nJgohKNvgztNwOG4VKc-nIEzFn-aYijd3vfzfejFQQFjLxHSHU7NKeHxvQjmO2O2gqmPICyg1ak2BZPOOsDMfg7ARtyBiJoH5r6D31fHjBDjuI7nODY29ewQ5M6Gm8msuMUK9PqZVrUe8VRHzSKBaQY26fHiO-Vwlf-fsM03onsL8sYGo92g9DTckV3DPYtjqG7gChYrKqNr8cgILXWmseTsihG1WJ4"/>
+</div>
+<div class="absolute -bottom-6 -left-6 w-48 h-48 bg-tertiary-container/20 rounded-xl -z-10"></div>
+<div class="absolute -top-6 -right-6 w-32 h-32 border-2 border-outline-variant/20 rounded-xl -z-10"></div>
+</div>
+</section>
+<!-- Services Section: Bento Grid Layout -->
+<section class="bg-surface-container-low py-24 px-8" id="services">
+<div class="max-w-7xl mx-auto space-y-16">
+<div class="text-center max-w-2xl mx-auto space-y-4">
+<h2 class="font-headline text-4xl font-bold text-primary">Tailored Assistance</h2>
+<p class="text-secondary font-body">Thoughtful services designed to enhance independence and well-being through dedicated presence and support.</p>
+</div>
+<div class="grid md:grid-cols-4 gap-6">
+<!-- Walk -->
+<div class="md:col-span-2 bg-surface-container-lowest p-10 rounded-xl space-y-6 shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-4xl text-tertiary" data-icon="directions_walk">directions_walk</span>
+<h3 class="font-headline text-2xl font-bold text-primary">Daily Walks</h3>
+<p class="text-secondary leading-relaxed">Invigorating strolls in your neighborhood or local parks. Focused on movement, fresh air, and meaningful conversation.</p>
+<ul class="space-y-2 text-sm text-secondary font-label">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-tertiary rounded-full"></span> Neighborhood Exploration</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-tertiary rounded-full"></span> Gentle Exercise</li>
+</ul>
+</div>
+<!-- Talk -->
+<div class="bg-surface-container-lowest p-10 rounded-xl space-y-6 shadow-sm border-t-4 border-primary">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="chat_bubble">chat_bubble</span>
+<h3 class="font-headline text-2xl font-bold text-primary">Companionship</h3>
+<p class="text-secondary leading-relaxed text-sm">Heartfelt dialogue and active listening to brighten the day.</p>
+</div>
+<!-- Errands -->
+<div class="bg-surface-container-lowest p-10 rounded-xl space-y-6 shadow-sm border-t-4 border-tertiary-container">
+<span class="material-symbols-outlined text-4xl text-tertiary-container" data-icon="shopping_basket">shopping_basket</span>
+<h3 class="font-headline text-2xl font-bold text-primary">Errands</h3>
+<p class="text-secondary leading-relaxed text-sm">Assistance with grocery shopping, pharmacy trips, and light tasks.</p>
+</div>
+<!-- Activity -->
+<div class="md:col-span-4 bg-primary text-on-primary p-12 rounded-xl flex flex-col md:flex-row items-center gap-12">
+<div class="flex-1 space-y-6">
+<h3 class="font-headline text-3xl font-bold">Engaging Activities</h3>
+<p class="opacity-80 text-lg">From museum visits to local theater or simple gardening—let's pursue what brings you joy. We handle the logistics; you enjoy the experience.</p>
+<button class="bg-on-primary text-primary px-8 py-3 rounded-lg font-label uppercase tracking-widest text-xs font-bold">Discover More</button>
+</div>
+<div class="flex-1 w-full h-64 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A soft-focus lifestyle image of two people's hands engaged in a puzzle on a rustic wooden table with a warm cup of tea nearby" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5eSm-qxvGy7QpIcTrAWrGI_DaJ4UisXQ-RCV5Z_kiBU_bh3WaIacojDmWJtiRCV4OOdrYEHDgzxQeTJ6gjf3M6Ex0MkGYcB0CQ-1o5hwTgqE1tGiogbgCBHzTh1OXODa87Ye80CUCBNsIkKkgEZu7BGrJ7WCnc0J8Uoa540ZQNMyXC7UQFm7-A-mMAe6D3qeQIriREV72gfHbOc-0tetANbp9ftVfK2zlTZWyU52bVoNo0hYdU55M71S_y0CVQNpH3659pJHbY9E"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Debbie: Editorial Pull-Quote Style -->
+<section class="py-24 px-8 max-w-7xl mx-auto" id="about">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="order-2 lg:order-1 space-y-10">
+<div class="border-l-4 border-tertiary-container pl-8">
+<p class="font-headline text-3xl italic text-primary leading-snug">
+                            "Care is not just a service; it is a shared journey of dignity and joy. I founded Walk With Debbie to ensure no one has to walk alone."
+                        </p>
+</div>
+<div class="space-y-6 text-secondary text-lg leading-relaxed">
+<p>With over two decades of experience in community support and a passion for active living, Debbie brings a unique blend of professionalism and genuine warmth to every encounter.</p>
+<p>Her approach is rooted in the belief that small moments—a morning walk, a shared laugh over tea, a completed errand—are the foundation of a life well-lived.</p>
+</div>
+<div class="pt-4 flex gap-8">
+<div>
+<span class="block font-headline text-4xl font-bold text-primary">15+</span>
+<span class="text-xs font-label uppercase tracking-widest opacity-60">Years Experience</span>
+</div>
+<div>
+<span class="block font-headline text-4xl font-bold text-primary">200+</span>
+<span class="text-xs font-label uppercase tracking-widest opacity-60">Happy Clients</span>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2 grid grid-cols-2 gap-4">
+<img class="rounded-xl aspect-[3/4] object-cover mt-12" data-alt="Detail shot of two people walking side-by-side on a leaf-strewn path in a serene autumn park" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4YIY6uLxZ20lRmxlSXal7rHyXlbk0DIrCiYUNgk7JOgVaxqRoJ5RjGmdWSi2g7D6cpPeVHw-adW4uZLiIMkSrIalDPqKbNTfOkFIifzosfwK8xmBU4XLpIeVipdz5Rj3pcDvQqYgwM3ejHVVQG0bkUWWozX7HOC1XVJm8Ek9rnpx68BO5CXvtK4RhZAkuiVBjXrswXEKYyZU6_MvU1dvt4RrdEan6-7kRZe0f3AWvS7Kc44y6gt-3Gpo72eDaoYrIGqyJL-Hh64Q"/>
+<img class="rounded-xl aspect-[3/4] object-cover" data-alt="Close up of a senior person laughing while being assisted by a caregiver, capturing a genuine moment of connection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoX20wKTLmTzsayXjgh8KHBao96jvhusqY7D_NuGAOa7gH_PFwFybYh2niVOX3uiwhU8If7iNKOyv9B9uio74d4IqgISm9lZKzQmS-woL0UQlP21DJaEQAdcceTywL9GZOP1plUiRNS_kef8GMFPyHOhwDhzjwXtcTU0go9KpMXA-xvnE4BIu5EaFZq55TQU0cApG04beZWU3TR0e3QEoodaIuOPrpWQetgOfFS3ab0CyIDV_aS3cJZDBYWQySuB-NqBV-lvNoXHM"/>
+</div>
+</div>
+</section>
+<!-- Scheduling & Service Area: Map Integration -->
+<section class="bg-surface-container-low py-24 px-8" id="scheduling">
+<div class="max-w-7xl mx-auto">
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-2xl grid lg:grid-cols-2">
+<div class="p-12 lg:p-20 space-y-10">
+<div class="space-y-4">
+<h2 class="font-headline text-4xl font-bold text-primary">Begin Your Journey</h2>
+<p class="text-secondary">Fill out the form below to request a complimentary meet-and-greet.</p>
+</div>
+<form class="space-y-8">
+<div class="grid md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="text-xs font-label uppercase tracking-widest text-primary font-bold">Full Name</label>
+<input class="w-full bg-transparent border-b border-outline/40 focus:border-primary focus:ring-0 py-2 transition-colors" placeholder="Elizabeth Bennet" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-label uppercase tracking-widest text-primary font-bold">Email Address</label>
+<input class="w-full bg-transparent border-b border-outline/40 focus:border-primary focus:ring-0 py-2 transition-colors" placeholder="elizabeth@manor.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-label uppercase tracking-widest text-primary font-bold">Interested Service</label>
+<select class="w-full bg-transparent border-b border-outline/40 focus:border-primary focus:ring-0 py-2 transition-colors">
+<option>Daily Walking</option>
+<option>General Companionship</option>
+<option>Errand Assistance</option>
+<option>Custom Care Package</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-label uppercase tracking-widest text-primary font-bold">How can we help?</label>
+<textarea class="w-full bg-transparent border-b border-outline/40 focus:border-primary focus:ring-0 py-2 transition-colors" placeholder="Tell us a little about your needs..." rows="3"></textarea>
+</div>
+<button class="w-full hero-gradient text-on-primary py-4 rounded-lg font-label uppercase tracking-widest text-sm font-bold shadow-lg" type="submit">
+                                Send Inquiry
+                            </button>
+</form>
+</div>
+<div class="relative min-h-[400px] bg-surface-container-high">
+<div class="absolute inset-0 grayscale opacity-40">
+<!-- Using data-location for map representation -->
+<img class="w-full h-full object-cover" data-alt="Stylized vintage-style map of a leafy suburban area with subtle gold markers" data-location="Westchester County, NY" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIqogXOJLSV8ykr41QgdF2JP_xg8dBN3EN0n4bi9UgKYLfTN-snGc77OOar2lkShJpHtGinrD14AIct7Yd0hcxWJ_9wNbveSmLQ90SCPkXEaCS5RtKafQnBPlIU-Tf4A96tR5ZG4oqYJYkLaQWlUxbIrCsHNNcWMgSxlVIw0nz7WGRSm7sxYZdR2t3BmWsMYWcCve3NRhVnIK2no97TaJXCZJqI7wD9IzZvc0-TOXxTn2t_Uw1giWTMslTo-Ok9CDINuKhIbWphQw"/>
+</div>
+<div class="absolute inset-0 bg-primary/10"></div>
+<div class="absolute inset-0 flex items-center justify-center p-12">
+<div class="bg-surface-container-lowest/90 backdrop-blur-sm p-8 rounded-xl shadow-xl max-w-xs text-center space-y-4">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="location_on">location_on</span>
+<h3 class="font-headline text-xl font-bold text-primary">Service Areas</h3>
+<p class="text-secondary text-sm leading-relaxed">Currently serving fine neighborhoods across Scarsdale, Rye, Larchmont, and Bronxville.</p>
+<div class="pt-4 border-t border-outline-variant/30 text-xs font-label uppercase tracking-tighter text-tertiary font-bold">
+                                    Available Mon — Fri | 8am — 6pm
+                                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto space-y-16">
+<div class="flex justify-between items-end">
+<h2 class="font-headline text-4xl font-bold text-primary">Kind Words</h2>
+<span class="font-label text-sm uppercase tracking-widest text-secondary mb-2">From our community</span>
+</div>
+<div class="flex flex-col md:flex-row gap-12">
+<div class="flex-1 space-y-6 italic text-secondary text-xl leading-relaxed">
+<p>"Debbie has become like family. Her visits are the highlight of my father's week. She brings such a calm, professional, and joyful energy that is rare to find."</p>
+<cite class="not-italic block">
+<span class="font-label font-bold text-primary uppercase text-sm tracking-widest">— Margaret W.</span>
+<span class="text-xs block opacity-60">Daughter of client</span>
+</cite>
+</div>
+<div class="w-px bg-outline-variant/20 hidden md:block"></div>
+<div class="flex-1 space-y-6 italic text-secondary text-xl leading-relaxed">
+<p>"More than just walks, Debbie provides a connection to the world. She is reliable, punctual, and incredibly thoughtful. I couldn't recommend her more highly."</p>
+<cite class="not-italic block">
+<span class="font-label font-bold text-primary uppercase text-sm tracking-widest">— Robert J.</span>
+<span class="text-xs block opacity-60">Retiree</span>
+</cite>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-outline-variant/15 bg-surface-container-low">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 py-12 space-y-4 md:space-y-0 max-w-7xl mx-auto">
+<div class="space-y-2">
+<span class="text-lg font-headline font-bold text-primary">Walk With Debbie</span>
+<p class="text-xs font-body text-secondary">© Walk With Debbie. All rights reserved.</p>
+</div>
+<div class="flex gap-8 text-sm font-label text-secondary">
+<a class="hover:underline decoration-tertiary-container decoration-2 underline-offset-4" href="#">Privacy Policy</a>
+<a class="hover:underline decoration-tertiary-container decoration-2 underline-offset-4" href="#">Terms of Service</a>
+<a class="hover:underline decoration-tertiary-container decoration-2 underline-offset-4" href="#">Service Areas</a>
+<a class="hover:underline decoration-tertiary-container decoration-2 underline-offset-4" href="#">Accessibility</a>
+</div>
+</div>
+</footer>
+</body></html>
